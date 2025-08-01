@@ -13,7 +13,7 @@ const app = express()
 //middleware
 app.use(express.json())
 app.use(cors({
-    origin: 'frontend-folder-gilt.vercel.app',
+    origin: ['https://frontend-folder-mallikarjuns-projects-c9d2e4f9.vercel.app/'],
     credentials: true
 }))
 
